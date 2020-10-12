@@ -1,0 +1,268 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+/*estilos generales a la cabecera*/
+#header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color:#fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+#header .contenedor img{
+  width: 50px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+h1{
+  float: left;
+}
+
+#header .contenedor{
+    display: table;
+}
+
+@media (min-width: 1024px){
+    .contenedor{
+        width: 1000px;
+    }
+    
+}
+
+/*menu*/
+#menu-bar{
+  display: none;
+}
+
+#header label {
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.menu{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%)
+}
+
+.menu a{
+  display: block;
+  color: #fff;
+  height: 50px;
+  text-decoration: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu a:hover{
+ background: rgba(255, 255, 255, 0.3);
+}
+
+#menu-bar:checked~.menu {
+    transform: translateX(0%);
+}
+
+/*Submenu*/
+
+ul{
+	list-style:none;
+}
+.nav li a{
+	text-decoration: none;
+	display: block;
+}
+
+/*ocultando los elementos del submenu*/
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+/*para que aparezca sub menu*/
+.nav li:hover > ul{
+	display: block;
+	margin-left: 200px;
+	background: rgba(255, 255, 255, 0.3);
+	border-right: 2px solid rgba(254, 000, 000, 0.3);	
+	
+}
+
+/*adaptando*/
+@media (min-width: 1024px) {
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+            
+    } 
+   
+.menu a{
+        border: none;
+    }
+    
+#header label{
+        display: none;
+    }
+/*apuntando directaente a li y esten en una sola linea*/
+.nav > li {
+	float: left;
+}
+
+.menu .nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+/*para que aparezca sub menu*/
+.menu .nav li:hover > ul{
+	display: block;
+	margin-left: 15px;
+	background: rgba(255, 255, 255, 0.3);
+	border-bottom: 2px solid rgba(254, 000, 000, 0.3);
+}
+}
+#baner {
+    margin-top: 50px;
+    position: relative;
+}
+#baner img{
+    width: 100%;
+    height: 100%;
+}
+#baner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    
+}
+#baner h2{
+    font-size: 28px;
+}
+#baner a{
+    display: block;
+    width: 80px;
+    color: #fff;
+    text-decoration: none;
+    padding:3px;
+
+    margin-top: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    }
+#baner a:hover{
+    background: rgba(51,51,51,0.5);
+}
+
+@media (min-width:480px){
+    #baner h2{
+        font-size: 40px;
+    }
+    
+    #baner a{
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px){
+    #baner{
+        height: 550px;
+        overflow: hidden;
+    }
+    
+    #baner  img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+
+
+@media (min-width: 1024px){
+    #baner  img{
+        margin-top: -275px;
+    }
+}
+
+#bienvenidos{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#blog h3,h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#blog article{
+    margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    height: 180px;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+
+#footer{
+  background:rgba(0,0,0,0.5);
+  clear: both;
+}
+
+#footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+.copy{
+  color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.sociales a{
+    color: #fff;
+    text-decoration: none;
+}

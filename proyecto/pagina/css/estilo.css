@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #212121 url(../img/fondo.jpg);
+	color: #fff;
+}
+#contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#header{
+	height: 150px;
+
+}
+#header img{
+	height: 150px;
+	width: 960px;
+	border-radius: 15px;
+}
+#nav{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+background: #cedce7; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #cedce7 0%, #596a72 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #cedce7 0%,#596a72 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	height: 50px;
+	margin-top: 5px;
+	float: none;
+	border-radius: 15px;
+}
+#nav ul{
+	list-style:none;
+	margin-left: 160px;
+}
+#nav li{
+	display: inline-block;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28343b+0,828c95+57 */
+background: #28343b; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #28343b 0%, #828c95 57%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #28343b 0%,#828c95 57%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #28343b 0%,#828c95 57%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#828c95',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	margin-right: 5px;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+
+#nav li a{
+	text-decoration: none;
+	display: block;
+	padding: 12px 50px;
+	color: #fff;
+	font-size: 15px;
+}
+#nav li a:hover{
+	color: #BC0B0B;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#828c95+41,28343b+95 */
+background: #828c95; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #828c95 41%, #28343b 95%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #828c95 41%,#28343b 95%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #828c95 41%,#28343b 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#828c95', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border-radius: 15px;
+}
+#contenido{
+	width: 700px;
+	height: 570px;
+	float: left;
+	background: rgba(0,0,0,0.3);
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+
+.conte{
+	width: 200px;
+	height: 160px;
+	border: 2px solid rgb(255,255,255);
+	position: absolute;
+	border-radius: 20px;
+}
+h2{
+	text-align: center;
+	font-size: 20px;
+}
+#cont{
+	margin-top: 5px;
+}
+#cont img{
+	width: 150px;
+	height: 120px;
+	margin-top: 8px;
+	margin-left: 25px;
+	border-radius: 20px;
+}
+#moto1{
+	margin-left: 15px;
+	margin-top: 20px;
+}
+#moto2{
+	margin-left: 250px;
+	margin-top: 20px;
+}
+#moto3{
+	margin-left: 480px;
+	margin-top: 20px;
+}
+
+#moto4{
+	margin-left: 15px;
+	margin-top: 200px;
+}
+#moto5{
+	margin-left: 250px;
+	margin-top: 200px;
+}
+#moto6{
+	margin-left: 480px;
+	margin-top: 200px;
+}
+
+#moto7{
+	margin-left: 15px;
+	margin-top: 380px;
+}
+#moto8{
+	margin-left: 250px;
+	margin-top: 380px;
+}
+#moto9{
+	margin-left: 480px;
+	margin-top: 380px;
+}
+
+
+#aside{
+	width: 250px;
+	height: 570px;
+	background: rgba(139,140,122,0.3);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	border-radius: 15px;
+}
+
+#aside img{
+	width: 150px;
+	height: 120px;
+	margin-top: 15px;
+	margin-left: 25px;
+	border-radius: 20px;
+}
+
+.publ{
+	width: 200px;
+	height: 150px;
+	border: 3px solid rgb(67,75,77);
+	position: absolute;
+	border-radius: 20px;
+}
+
+#a1{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#a2{
+	margin-top: 220px;
+	margin-left: 20px;
+}
+#a3{
+	margin-top: 390px;
+	margin-left: 20px;
+}
+
+#aside > h2{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: -30px;
+}
+
+#footer{
+	background:rgba(143,143,143,0.3);
+	clear: both;
+	border-radius: 15px;
+}
+
+#footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+.copy{
+	color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.sociales a{
+    color: #fff;
+    text-decoration: none;
+}

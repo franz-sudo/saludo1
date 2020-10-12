@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="th-list" unicode="&#xe800;" d="M860 90q43 0 73-31t31-74q0-43-31-73t-73-31l-365 0q-44 0-74 31t-31 73 31 74 74 31l365 0z m0 364q43 0 73-31t31-73-31-73-73-31l-365 0q-44 0-74 31t-31 73 31 73 74 31l365 0z m0 365q43 0 73-31t31-73q0-44-31-74t-73-31l-365 0q-42 0-74 31t-31 74 31 73 74 31l365 0z m-860-834q0 130 130 130t130-130-130-130-130 130z m0 365q0 130 130 130t130-130-130-130-130 130z m0 365q0 130 130 130t130-130-130-130-130 130z" horiz-adv-x="964" />
+
+<glyph glyph-name="twitter" unicode="&#xe801;" d="M0-37q30-3 60-3 176 0 314 108-82 1-147 50t-89 125q20-4 47-4 35 0 67 9-88 17-145 87t-58 160l0 3q53-30 115-31-52 34-82 90t-31 120q0 68 35 127 94-117 230-186t290-78q-7 33-7 58 0 104 74 178t179 74q109 0 184-80 87 18 160 62-28-91-110-140 73 9 144 40-48-75-125-131l0-33q0-101-29-202t-90-194-145-165-201-115-253-42q-209 0-387 113z" horiz-adv-x="1230" />
+
+<glyph glyph-name="gmail" unicode="&#xe802;" d="M0-97l0 897 185 0 9-8 825 0 9 8 174 0 0-900-171 0 0 7-855 0 0-4-176 0z m176 132l0-80 855 0 0 74-345 259-79-65-86 70z m0 60l307 229-307 252 0-481z m83 641l348-298 347 298-695 0z m465-417l307-230 0 484z" horiz-adv-x="1202" />
+
+<glyph glyph-name="th-list-1" unicode="&#xe803;" d="M1000 850v-160h-1000v160h1000z m0-280v-160h-1000v160h1000z m0-280v-160h-1000v160h1000z m0-280v-160h-1000v160h1000z" horiz-adv-x="1000" />
+
+<glyph glyph-name="facebook" unicode="&#xf09a;" d="M535 843v-147h-87q-48 0-65-20t-17-60v-106h164l-22-165h-142v-424h-171v424h-142v165h142v122q0 104 58 161t155 57q82 0 127-7z" horiz-adv-x="571.4" />
+</font>
+</defs>
+</svg>
